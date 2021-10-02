@@ -1,3 +1,3 @@
 # landing-page
 
-<a href="https://github.com/avalon-zeta/landing-page">Live</a>
+<a href="https://avalon-zeta.github.io/landing-page/">Live</a>
