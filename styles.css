@@ -106,13 +106,15 @@ li {
   justify-content: center;
   gap: 52px;
   text-align: center;
-  margin-bottom: 128px;
+  margin-bottom: 120px;
 }
 
 
 .plant {
   width: 100px;
   height: 100px;
+  border: 4px solid royalblue;
+  border-radius: 8px;
 }
 
 .info {
@@ -123,19 +125,62 @@ li {
   display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
+  padding: 120px 240px 120px 240px;
+  justify-content: center;
+}
 
+.testimonial-text {
+  display: flex;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: right;
+  margin-right: 60px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .call-to-action {
   display: flex;
-  flex:1;
-  
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .call-to-action-container {
-
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  padding: 24px 96px;
 }
 
+.cat {
+  background: #3882f6;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-left: 96px;
+}
+
+.click {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cat-text {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+
+}
 
 .footer {
   display: flex;
